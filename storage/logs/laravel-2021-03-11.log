@@ -1,0 +1,22 @@
+[2021-03-11 21:40:54] local.INFO: Entering MyTestMiddleware.handle()  
+[2021-03-11 21:40:54] local.INFO: Could not get username from cache (data is older than 1 minute)  
+[2021-03-11 21:40:54] local.INFO: Entering MySecurityMiddleware.handle() at path: loggingservice  
+[2021-03-11 21:40:54] local.INFO: In SecurityMiddleware.handle() -> Needs security  
+[2021-03-11 21:40:54] local.INFO: Leaving the MySecurityMiddleware.handle() doing a redirect to login  
+[2021-03-11 21:40:54] local.INFO: Entering MyTestMiddleware.handle()  
+[2021-03-11 21:40:54] local.INFO: Could not get username from cache (data is older than 1 minute)  
+[2021-03-11 21:40:54] local.INFO: Entering MySecurityMiddleware.handle() at path: login  
+[2021-03-11 21:40:54] local.INFO: In SecurityMiddleware.handle() -> No security needed  
+[2021-03-11 21:41:30] local.INFO: Entering MyTestMiddleware.handle()  
+[2021-03-11 21:41:30] local.INFO: Username is not null. It is: hollandaucoin  
+[2021-03-11 21:41:30] local.INFO: Caching first time username for: hollandaucoin  
+[2021-03-11 21:41:30] local.INFO: Entering MySecurityMiddleware.handle() at path: dologin  
+[2021-03-11 21:41:30] local.INFO: In SecurityMiddleware.handle() -> No security needed  
+[2021-03-11 21:41:30] local.INFO: Entering LoginController: Index()  
+[2021-03-11 21:41:30] local.INFO: Parameters are:  {"username":"hollandaucoin","password":"holland"} 
+[2021-03-11 21:41:30] local.INFO: Exiting LoginController: Index() with a login successful  
+[2021-03-11 21:41:36] local.INFO: Entering MyTestMiddleware.handle()  
+[2021-03-11 21:41:36] local.INFO: Could not get username from cache (data is older than 1 minute)  
+[2021-03-11 21:41:36] local.INFO: Entering MySecurityMiddleware.handle() at path: loggingservice  
+[2021-03-11 21:41:36] local.INFO: In SecurityMiddleware.handle() -> Needs security  
+[2021-03-11 21:41:36] local.INFO: Entering TestLoggingController.index()  
